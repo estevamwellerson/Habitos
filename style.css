@@ -7,21 +7,24 @@
 body {
   background-color: #09090a;
   color: white;
+
   height: 100vh;
 }
+
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   padding: 48px;
+
   position: fixed;
-  background-color: #09090a;
   width: 100%;
+  background-color: #09090a;
 }
+
 button {
   padding: 16px 24px;
-  /* 16px de preenchimento em cima e embaixo
-  24px preenchimento lateral */
   border-radius: 8px;
   border: 1px solid #8b5cf6;
   background-color: transparent;
@@ -31,7 +34,7 @@ button {
   align-items: center;
   gap: 12px;
 
-  font-family: "inter";
+  font-family: "Inter";
   font-weight: 600;
   font-size: 16px;
   line-height: 125%;
@@ -39,7 +42,8 @@ button {
 
 #form-habits {
   display: flex;
-  padding: 180px 48px 48px;
+
+  padding: 182px 48px 48px;
   width: fit-content;
 }
 
@@ -47,6 +51,7 @@ button {
   margin-top: 60px;
   display: flex;
   flex-direction: column;
+
   gap: 24px;
 }
 
@@ -69,18 +74,20 @@ button {
 
 .day {
   display: flex;
-  gap: 24px;
   flex-direction: column;
+  gap: 24px;
 }
 
 .day div {
-  text-align: center;
   margin-bottom: 8px;
+
   font-family: "Roboto Mono";
-  font-weight: 700;
   font-size: 20px;
   line-height: 125%;
+
   color: #a1a1aa;
+
+  text-align: center;
 }
 
 input {
@@ -92,14 +99,15 @@ input {
 
   border: 2px solid #27272a;
   border-radius: 8px;
+
   background: #18181b;
 }
 
-/* pseudo-selector */
 input:checked {
   background: #8b5cf6;
   border: 2px solid #a78bfa;
 }
+
 @media (max-width: 570px) {
   button div {
     display: none;
