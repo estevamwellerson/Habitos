@@ -1,4 +1,1 @@
-# HabitsTrack
-# monitoramento-de-habitos
-# monitoramento-de-habitos
-# monitoramento-de-habitos
+Aplicativo feito para monitorar seus habitos diários
